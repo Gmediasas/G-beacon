@@ -7,14 +7,7 @@
     android:background="@android:color/darker_gray"
     android:padding="20dp">
 
-    <ImageView
-        android:id="@+id/beaconImage"
-        android:layout_width="128dp"
-        android:layout_height="192dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/beacon" />
+
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -25,22 +18,16 @@
         app:layout_constraintStart_toEndOf="@+id/beaconImage"
         app:layout_constraintTop_toTopOf="@+id/beaconImage">
 
+
         <TextView
-            android:id="@+id/title"
+            android:id="@+id/forever"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="blueberry"
+            tools:text="siempre GFashion"
             android:textColor="@android:color/white"
             android:textSize="22sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/subtitle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:text="f04d...b13c"
-            android:textColor="@android:color/white"
-            android:textSize="17sp" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

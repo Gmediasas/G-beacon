@@ -57,13 +57,13 @@ public class ProximityContentAdapter extends BaseAdapter {
 
         ProximityContent content = nearbyContent.get(position);
 
-        TextView title = convertView.findViewById(R.id.title);
-        TextView subtitle = convertView.findViewById(R.id.subtitle);
+        //TextView title = convertView.findViewById(R.id.title);
+        //TextView subtitle = convertView.findViewById(R.id.subtitle);
 
-        title.setText(content.getTitle());
-        subtitle.setText(content.getSubtitle());
+        //title.setText(content.getTitle());
+        //subtitle.setText(content.getSubtitle());
 
-        convertView.setBackgroundColor(Utils.getEstimoteColor(content.getTitle()));
+        //convertView.setBackgroundColor(Utils.getEstimoteColor(content.getTitle()));
 
         return convertView;
     }

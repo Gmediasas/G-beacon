@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         proximityContentAdapter = new ProximityContentAdapter(this);
-        GridView gridView = findViewById(R.id.gridView);
-        gridView.setAdapter(proximityContentAdapter);
+        /*GridView gridView = findViewById(R.id.gridView);
+        gridView.setAdapter(proximityContentAdapter);*/
 
 
         RequirementsWizardFactory
